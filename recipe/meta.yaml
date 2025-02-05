@@ -1,5 +1,5 @@
 {% set name = "qnmfits" %}
-{% set version = "2025.0.0" %}
+{% set version = "2025.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/qnmfits-{{ version }}.tar.gz
-  sha256: f3a615a7922c044b7cb8063d8d467b3f6c3e15efb00afbd70ac54114974ba495
+  sha256: 9abf958e8c5a24dc26a6e8bd4d0f2e833b47c6dcac402ba0253cfdf0b80f653a
 
 build:
   noarch: python
